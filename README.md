@@ -14,7 +14,9 @@ To install, download the repository, go to Chrome Extensions, and load the unzip
 
 Use these settings:
 http://htmlpreview.github.io/?https://github.com/Sentero-esp12/Lichess-Keyboard-WebRequest-/blob/master/game-display.html
+
 http://htmlpreview.github.io/?https://github.com/Sentero-esp12/Lichess-Keyboard-WebRequest-/blob/master/chessClock.html
+
 http://htmlpreview.github.io/?https://github.com/Sentero-esp12/Lichess-Keyboard-WebRequest-/blob/master/gameBehaviour.html
 Or view html files in the repository, 
 otherwise the extension won't work.
