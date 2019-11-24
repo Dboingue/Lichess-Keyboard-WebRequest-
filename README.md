@@ -12,7 +12,7 @@ https://github.com/Sentero-esp12/Lichess-Keyboard-Input
 
 # You have to set keys manually (line 6492) in code.js.
 
-To install, download the repository, go to Chrome Extensions, and load the unziped extension (developer mode should be on).
+To install, download the repository, go to Chrome Extensions, and load the unziped extension.zip or extension folder (developer mode should be on).
 
 # Use these settings:
 
