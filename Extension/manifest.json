@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Override",
+    "short_name": "Override",
+    "description": "Override",
+    "version": "1.0",
+ 
+
+  "content_security_policy": "script-src 'self' http://localhost:9000/code.js; object-src 'self'",
+    "permissions": [
+      "webRequest",
+      "https://lichess.org/*",
+      "webRequestBlocking",
+      "browsingData", "http://*/*", "https://*/*","\u003Call_urls>","http://localhost:9000/code.js"
+    ],
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent": true
+        },
+
+        "content_scripts": [ {
+            "js": [ 
+              "jquery-3.4.1.slim.min.js"
+            ],
+            "matches": [ "https://lichess.org/*","\u003Call_urls>","http://localhost:9000/code.js" ],
+            "run_at": "document_start"
+            }
+            ],
+        "web_accessible_resources": [
+    "https://lichess.org/*",
+    "code.js",
+    "\u003Call_urls>",
+    "http://localhost:9000/code.js"
+  ]
+  }
