@@ -1,7 +1,7 @@
 # Lichess-Keyboard-WebRequest-
 Using WebRequest API to implement Lichess keyboard play
 
-# The extension is in the extension.zip
+# The extension is in the extension.zip or extension folder
 
 An example of Chrome WebRequest API to redirect website's files to a custom file (same as local overrides, but customizable and persistent).
 
