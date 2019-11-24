@@ -7130,7 +7130,8 @@ console.log(objGA.premoves);
 },
 
 KeyD(e) {
-    let key = event.key;
+    let key = e.key;
+    if (event.target.tagName!=="INPUT"&&(key==='f'||key==='s'||key==='z')) {e.preventDefault();/*e.stopPropagation();*/}
     if (!objGA.keys.includes(key) && key != 'Control' && key != 'Alt')
     {
     objGA.keys.unshift(key);
